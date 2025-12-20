@@ -1,6 +1,6 @@
 lines = ["check\n", "error\n", "test\n"]
 
-with open("test.txt", "w+") as f:
+with open("../test.txt", "w+") as f:
     f.writelines(lines)
     f.seek(0)
     line_number = 0

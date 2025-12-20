@@ -12,7 +12,7 @@ driver.get("https://www.amazon.in/")
 time.sleep(3)
 
 # Capture full page screenshot
-screenshot_path = "amazon_homepage.png"
+screenshot_path = "../amazon_homepage.png"
 driver.save_screenshot(screenshot_path)
 print(f"Screenshot saved at: {screenshot_path}")
 
