@@ -114,11 +114,26 @@ check_tuple = (1,2,3,4,5)
 check_tuple.insert(10)
 print(check_tuple)
 
-"""
+
 d = {(1, 2): "check hashability"}
 print(d[(1,2)])
 
+"""
+
+def rev_str(s):
+    r = ""
+    for i in range(len(s)-1,-1,-1):
+        r += s[i]
+    return r
+print(rev_str("hello"))
 
 
 
+
+s= "hello world"
+temp = ""
+for i in s:
+    temp = i + temp
+
+print(temp)
 

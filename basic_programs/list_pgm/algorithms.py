@@ -1,4 +1,4 @@
-"""
+
 s = 'banana'
 if 'ana' in s:
     print( 'string found')
@@ -67,5 +67,3 @@ def count_vowels(sentence):
     return result,count
 
 print(count_vowels("This is a beautiful day!"))
-
-"""
